@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 .row::after{
     content: '';
@@ -12,7 +13,8 @@ header ul li{
     display: inline-block;
     padding: 0 10px;
 }
-header ul li a{
+header ul li a,
+.first-article a{
   text-decoration: none;
   list-style: none;
   color: black;
@@ -24,6 +26,7 @@ nav{
   font-size: 14px;
   top: 0;
   left: 0;
+  background-color:white;
   z-index: 10;
 }
 .row.nav-left{
@@ -39,7 +42,8 @@ nav ul{
 header ul li .logo-small {
     vertical-align: middle;
 }
-nav ul li .inizia{
+/* nav ul li  */
+.blue-btn{
     background-color: #0061FF;
     padding: 6px 20px;
     color: white;
@@ -71,17 +75,45 @@ nav ul li .inizia{
 [class*="col_"] {
   float: left;
 }
+p{
+  font-size: 14px;
+}
 
  /* First Article */
  main .blue-bg{
    background-color: #B4D0E7;
    margin-top: 45px;
+   position: relative;
+   max-height: 500px;
  }
- main .container-large{
+ main .first-article .container-large{
    width: 1000px;
    margin: auto;
-   border: 1px solid;
+   /* border: 1px solid; */
+   position: relative;
+   padding: 30px 0;
  }
  main .container-large h1{
-   text-align: center;
+   font-size: 58px;
  }
+ main .first-article p{
+   padding-right: 100px;
+ }
+main .first-article .row{
+  padding: 50px 0;
+}
+main .first-article a{
+  display: block;
+  color: white;
+  width: 235px;
+  padding: 5px 20px;
+}
+main .first-article .left-bottom{
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+main .first-article .down-arrow{
+  font-size: 25px;
+  padding-top: 30px;
+}
+ 
