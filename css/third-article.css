@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.third-article{
+    padding: 100px 0;
+}
+.third-article img{
+    width: 100%;
+}
+.third-article .container .txt-container{
+    padding: 40px 35px;
+}
+.third-article .container .txt-container h2{
+    padding: 30px 0;
+}
+.third-article .container .txt-container .button{
+    padding: 30px 0;
+}
+.third-article .container .txt-container a{
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px 20px;
+    color: black;
+}

@@ -93,5 +93,10 @@ main .second-article .horizontal-container .row .blue-btn{
 }
 main .second-article .horizontal-container .row span{
     padding: 30px 0;
-
+}
+main .second-article .horizontal-container .row h3{
+    padding-bottom: 20px;
+}
+main .second-article .horizontal-container .row span{
+    font-size: 14px;
 }
