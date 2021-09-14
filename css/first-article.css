@@ -86,7 +86,7 @@ p{
    position: relative;
    max-height: 720px;
  }
- main .first-article .container-large{
+.container-large{
    max-width: 1361px;
    width: 100%;
    margin: auto;
