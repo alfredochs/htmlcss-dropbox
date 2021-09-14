@@ -84,20 +84,22 @@ p{
    background-color: #B4D0E7;
    margin-top: 45px;
    position: relative;
-   max-height: 500px;
+   max-height: 720px;
  }
  main .first-article .container-large{
-   width: 1000px;
+   max-width: 1361px;
+   width: 100%;
    margin: auto;
    /* border: 1px solid; */
    position: relative;
    padding: 30px 0;
  }
  main .container-large h1{
-   font-size: 58px;
+   font-size: 77px;
  }
  main .first-article p{
-   padding-right: 100px;
+   padding-right: 70px;
+   font-size: 16px;
  }
 main .first-article .row{
   padding: 50px 0;
