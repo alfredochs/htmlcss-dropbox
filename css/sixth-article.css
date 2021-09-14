@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+.sixth-article .container{
+    padding: 60px 0;
+}
+.sixth-article .container h3{
+    padding-bottom: 50px;
+}
+.sixth-article .container ul{
+    list-style: none;
+}
+.sixth-article .container ul li{
+    border-top: 1px solid lightgray;
+    line-height: 50px;
+}
+.sixth-article .container ul li:last-child{
+    border-bottom: 1px solid lightgray;
+}
+.sixth-article .container .row h5{
+    display: inline-block;
+}
+.row-faq{
+    float: right;
+    padding-right: 20px;
+}
