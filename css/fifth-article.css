@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.fifth-article .container .link-container{
+    padding: 20px 0;
+}
+.fifth-article .container a{
+    color: #0061FF;
+}
+.fifth-article .square{
+    float: left;
+    /* border: 1px solid; */
+    width: 30vw;
+    /* height: 100px; */
+}
+.fifth-article .square.middle{
+    /* float: left; */
+    /* border: 1px solid; */
+    width: 40%;
+    height: 30vw;
+}
+.fifth-article .small-square{
+    float: left;
+    height: 15vw;
+    width: 50%;
+    /* border: 1px solid; */
+    position: relative;
+}
+.fifth-article .row .small-square .img-container{
+    /* width: 150px; */
+    /* height: 150px; */
+    color: white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.fifth-article .row .small-square img{
+    width: 100%;
+    padding:0 50px;
+}
+
+/* ********** */
+/* Middle Square */
+
+.fifth-article .row .square.middle .int-container{
+    padding: 50px;
+}
+.fifth-article .row .square.middle .int-container img{
+    width: 35%;
+    padding-bottom: 90px;
+}
+.fifth-article .row .square.middle .int-container p{
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+/* END MIDDLE SQUARE */
