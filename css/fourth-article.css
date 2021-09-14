@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* .fourth-article .container{
+    border: 1px solid;
+} */
+.fourth-article .container .row img{
+    width: 100%;
+}
+.fourth-article .container .row p{
+    padding-top: 20px;
+    font-size: 14px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+}
+.fourth-article .container .row a{
+    color: black;
+}
+.fourth-article .container .row .int-container{
+    width: 90%;
+    /* border: 1px solid; */
+    margin: auto;
+}
+.fourth-article .container h2{
+    padding-bottom: 50px;
+}
+.fourth-article .container h3{
+    padding-right: 20px;
+}
