@@ -10,7 +10,7 @@ footer{
     font-size: 14px;
 }
 footer .row{
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 footer .container-large .row ul{
     list-style: none;
@@ -18,7 +18,7 @@ footer .container-large .row ul{
 footer .container-large .col-footer{
     width:  calc(100% / 5);
     float: left;
-    padding: 40px 0;
+    padding: 30px 0;
 }
 footer .container-large .col-footer h4{
     padding-bottom: 20px;
@@ -27,6 +27,11 @@ footer .container-large .col-footer li{
     line-height: 25px;
 }
 footer .container-large .language{
-    border-top: 1px solid lightgray;
     padding-top: 50px;
+    color: lightgray;
+}
+.min-border{
+    width: 100px;
+    border-top: 1px solid lightgray;
+    padding-bottom: 50px;
 }

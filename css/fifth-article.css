@@ -20,6 +20,7 @@
     /* border: 1px solid; */
     width: 40%;
     height: 30vw;
+    overflow: auto;
 }
 .fifth-article .small-square{
     float: left;

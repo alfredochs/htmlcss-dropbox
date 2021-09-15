@@ -35,24 +35,46 @@ main .second-article .row .internal-container{
     margin: auto;
     min-height: 900px;
     font-size: 14px;
-    padding: 0 20px;
+    /* padding: 0 18px; */
 }
-main .second-article .row .internal-container ul .col_3_9{
-    border: 1px solid;
+.internal-container-content{
+    padding: 0 18px;
 }
 main .second-article .row .internal-container .list-subtitle{
     text-align: center;
     padding: 10px 0;
     border-bottom: 1px solid lightgray;
 }
-main .second-article .row .internal-container ul{
+
+.list-with-icons li i,
+.last-list li i{
+    /* position: absolute;
+    margin: 3px -15px; */
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    margin-left: -2px;
+}
+
+.border{
+    width: 45px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 40px;
+}
+.internal-container ul{
     list-style: none;
-    padding: 15px 10px;
+    padding: 15px 0;
+    position: relative;
+}
+ul.list-with-icons{
+    padding: 0 15px;
 }
 main .second-article .row .internal-container ul li{
     padding: 10px 0;
-    list-style: none;;
+    list-style: none;
+    padding-left: 4px;
 }
+
 main .second-article .row .internal-container .blue-btn{
     text-decoration: none;
 }
@@ -62,6 +84,9 @@ main .second-article .row .internal-container .btn-space{
 
 main .second-article .internal-container .last-list{
     padding: 40px 0;
+}
+main .second-article .internal-container .last-list ul{
+    padding: 0 13px;
 }
 .fa-check{
     color: #0061FF;
