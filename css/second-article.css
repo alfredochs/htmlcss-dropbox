@@ -27,8 +27,6 @@ main .second-article form label{
 main .second-article .row {
     padding: 25px 0;
 }
-/* main .second-article .row .internal-container */
-    /* border:1px solid */
 main .second-article .row .internal-container{
     width: 90%;
     border: 1px solid lightgray;

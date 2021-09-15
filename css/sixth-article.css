@@ -23,8 +23,30 @@
 }
 .sixth-article .container .row h5{
     display: inline-block;
+    padding-right: 30px;
 }
 .row-faq{
     float: right;
     padding-right: 20px;
+}
+/* Animations */
+
+.arrow{
+    transform: rotate(0deg);
+    transition: transform 0.5s;
+}
+.row .row-hide-content{
+    /* display: none; */
+    transition:  0.5s;
+    height: 0px;
+    overflow: hidden;
+}
+.row:focus .row-hide-content{
+    /* display: block; */
+    height: 200px;
+    overflow: auto;
+}
+
+.row:focus .arrow {
+    transform: rotate(180deg);
 }
