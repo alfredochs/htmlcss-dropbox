@@ -12,7 +12,7 @@
 .fifth-article .square{
     float: left;
     /* border: 1px solid; */
-    width: 30vw;
+    width: 30%;
     /* height: 100px; */
 }
 .fifth-article .square.middle{
