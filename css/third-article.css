@@ -7,11 +7,12 @@
     padding: 100px 0;
 }
 .third-article img{
-    width: 100%;
+    width: 90%;
+    margin-left: 15px;
 }
 .third-article .container .txt-container{
     padding-top: 40px;
-    padding-left: 35px;
+    padding-left: 10px;
 }
 .third-article .container .txt-container h2{
     padding: 30px 0;

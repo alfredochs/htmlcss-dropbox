@@ -9,46 +9,19 @@
     display: table;
     clear: both;
 }
-header ul li{
-    display: inline-block;
-    padding: 0 10px;
-}
-header ul li a,
-.first-article a{
-  text-decoration: none;
-  list-style: none;
-  color: black;
-  padding: 10px 0;
-}
-nav{
-  width: 100%;
-  position: fixed;
-  font-size: 14px;
-  top: 0;
-  left: 0;
-  background-color:white;
-  z-index: 10;
-}
-.row.nav-left{
-    float: left;
-}
+p{font-size: 16px;}
+.small-text{font-size: 14px}
+h1{font-size: 77px}
+h2{font-size: 40}
+h3{font-size: 25}
+h4{font-size: 16px}
+h5{font-size: 16px}
 
-.row.nav-right{
-    float: right;
-}
-nav ul{
-  padding: 10px 20px;
-}
-header ul li .logo-small {
-    vertical-align: middle;
-}
-/* nav ul li  */
 .blue-btn{
-    background-color: #0061FF;
-    padding: 6px 20px;
-    color: white;
+  background-color: #0061FF;
+  padding: 10px 25px;
+  color: white;
 }
-/* Colonne */
 .col_1_9 {
   width: calc(100% / 9);
 }
@@ -75,14 +48,69 @@ header ul li .logo-small {
 [class*="col_"] {
   float: left;
 }
-p{
-  font-size: 14px;
+
+/* ******************************************************** */
+
+header ul li{
+  display: inline-block;
+  padding: 12px 0;
+  vertical-align: middle;
 }
+
+header ul li a,
+.first-article a{
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  padding: 20px 25px;
+}
+nav{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color:white;
+  /* line-height: 30px; */
+  z-index: 10;
+}
+.nav-left{
+    float: left;
+}
+
+.nav-right{
+  float: right;
+}
+.nav-right ul{
+  line-height: calc(49px / 2);
+}
+nav ul{
+  padding: 10px 10px;
+}
+
+.nav-right li a:last-child{
+  margin-left: 5px;
+  padding: 16px 25px ;
+}
+
+/* **************************************************** */
+/* ANIMAZIONI NAV*/
+/* **************************************************** */
+
+nav li{
+  box-shadow: 0;
+  transition: box-shadow 0.5s;
+}
+nav li:hover{
+  box-shadow: 20px 20px 50px grey;
+}
+/* .nav-right .blue-btn{
+  box-shadow: 3px 10px black;
+} */
 
  /* First Article */
  main .blue-bg{
    background-color: #B4D0E7;
-   margin-top: 45px;
+   margin-top: 80px;
    position: relative;
    max-height: 720px;
  }
@@ -118,4 +146,4 @@ main .first-article .down-arrow{
   font-size: 25px;
   padding-top: 30px;
 }
- 
+

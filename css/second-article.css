@@ -35,6 +35,9 @@ main .second-article .row .internal-container{
     font-size: 14px;
     /* padding: 0 18px; */
 }
+.title-form-container{
+    padding-left: 15px;
+}
 .internal-container-content{
     padding: 0 18px;
 }
@@ -122,4 +125,7 @@ main .second-article .horizontal-container .row h3{
 }
 main .second-article .horizontal-container .row span{
     font-size: 14px;
+}
+.second-article .last-span a  {
+    color: #2165F6;
 }
