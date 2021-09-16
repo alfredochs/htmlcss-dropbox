@@ -88,7 +88,6 @@ nav ul{
 }
 
 .nav-right li a:last-child{
-  margin-left: 5px;
   padding: 16px 25px ;
 }
 
@@ -142,8 +141,17 @@ main .first-article .left-bottom{
   padding-top: 20px;
   padding-bottom: 15px;
 }
-main .first-article .down-arrow{
-  font-size: 25px;
+.down-arrow{
+  font-size: 40px;
   padding-top: 30px;
+  position: relative;
+  animation: arrow 1s infinite;
 }
+/* **************************************************** */
+/* ANIMATION ARROW */
 
+@keyframes arrow{
+  0% {top :0px}
+  50%{top :30px}
+  100%{top:0px}
+}
